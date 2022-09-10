@@ -9,13 +9,13 @@
 html, body{ 
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background: url("../imagens/pexels-marina-leonova-7634436.jpg") no-repeat top center;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 body{
-    background: url("../imagens/pexels-marina-leonova-7634436.jpg") no-repeat top center;
-    background-size: cover;
-    background-attachment: fixed;
+
 }
 
 main{
@@ -65,7 +65,7 @@ iframe#tela{
     top: 80px;
     left: 22px;
     width: 270px;
-    height: 471px;
+    height: 472px;
   
 }
 
