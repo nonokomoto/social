@@ -36,6 +36,27 @@ section#telefone{
     background: url("../imagens/frame-iphone.png");
 
 }
+section#redes-sociais{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+section#redes-sociais img {
+
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.237);
+
+    box-sizing: border-box;
+    
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid white;
+}
 
 iframe#tela{
     position: relative;
@@ -45,3 +66,4 @@ iframe#tela{
     height: 471px;
   
 }
+
